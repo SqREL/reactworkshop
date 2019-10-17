@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Game renders without crashing 1`] = `
+<div
+  className="c-game"
+>
+  <div
+    className="c-game__img-wrapper"
+  >
+    <img
+      className="c-game__img"
+      src="http://google.com"
+    />
+  </div>
+  <div
+    className="c-game__content"
+  >
+    <div
+      className="c-game__name"
+    >
+      test game name
+    </div>
+    <div
+      className="c-game__price"
+    >
+      Price: 
+      1488
+    </div>
+    <button
+      className="o-button c-game__add-button"
+      onClick={
+        [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        }
+      }
+    >
+      Add to cart
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Prce free renders without crashing 1`] = `
+<div
+  className="c-game"
+>
+  <div
+    className="c-game__img-wrapper"
+  >
+    <img
+      className="c-game__img"
+      src="http://google.com"
+    />
+  </div>
+  <div
+    className="c-game__content"
+  >
+    <div
+      className="c-game__name"
+    >
+      test game name
+    </div>
+    <div
+      className="c-game__price"
+    >
+      Price: 
+      Free
+    </div>
+    <button
+      className="o-button c-game__add-button"
+      onClick={[MockFunction]}
+    >
+      Add to cart
+    </button>
+  </div>
+</div>
+`;

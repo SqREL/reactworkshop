@@ -1,0 +1,22 @@
+@import '../../assets/styles/abstracts/variables';
+
+.c-game {
+    background: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.07);
+
+    &__img {
+        width: 100%;
+    }
+
+    &__content {
+        padding: $gutter-width/2;
+    }
+
+    &__name {
+        font-weight: 900;
+    }
+
+    &__add-button {
+        margin-top: 10px;
+    }
+}
